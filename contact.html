@@ -1,0 +1,174 @@
+        <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ryan Nolan | Designing For You</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  </head>
+  <body>
+        <header>
+          <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Ryan Nolan</a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="dropdown" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-header">My Work</li>
+                      <li><a href="media.html">Media</a></li>
+                      <li><a href="photography.html">Photography</a></li>
+                      <li><a href="design.html">Design</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <br><br><br>
+
+
+        <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact
+                    <small>Say Hello!</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+                <!-- Embedded Google Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9518.261719239254!2d-6.38595186381601!3d53.38682462740626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1462828852445" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+               
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contact Details</h3>
+                <p>
+                    Blanchardstown<br>Dublin, Ireland<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">Ryan2597@live.ie</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Send us a Message</h3>
+                <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+               
+                <form action="order.php" method="get">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name"/>
+                        <label for="Address">Address</label>
+                        <input type="Address" class="form-control" id="Address"/>
+                        <label for="Email" class="control-label" for="email">Email</label>
+                        <input type="Email" class="form-control" id="Email"/>
+                        <label for="Telephone">Telephone</label>
+                        <input type="Telephone" class="form-control" id="Telephone"/>
+
+                        <label for="whats-wanted">What would you like?</label>
+                                <select name="referrer" class="form-control input" id="hear-about">
+                                    <option value="red velvet">Media</option>
+                                    <option value="choc">Photography</option>
+                                    <option value="vanilla">Design</option>
+                                </select>
+                                <br>
+                            <a href="#"><button type="submit" class="btn btn-default">Submit</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <!-- /.row -->
+
+        <hr>
+
+
+
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+                <div class="navbar-text pull-left">
+                    <p>&copy;2016 Ryan Nolan.</p> 
+                </div>
+                <div class="navbar-text pull-right">
+                <a href="https://www.facebook.com/RyannNolannn"><i class="fa fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.twitter.com/RyannNolannn"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCm9z7y3P3mVxeGgNV_qKhcg"><i class="fa fa-youtube fa-2x"></i></a>
+              </div>
+            </div>
+       </footer>
+
+       
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+   
+
+  </body>
+</html>
